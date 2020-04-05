@@ -1,0 +1,85 @@
+-- Copyright (C) 2018  Intel Corporation. All rights reserved.
+-- Your use of Intel Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Intel Program License 
+-- Subscription Agreement, the Intel Quartus Prime License Agreement,
+-- the Intel FPGA IP License Agreement, or other applicable license
+-- agreement, including, without limitation, that your use is for
+-- the sole purpose of programming logic devices manufactured by
+-- Intel and sold by Intel or its authorized distributors.  Please
+-- refer to the applicable agreement for further details.
+
+-- ***************************************************************************
+-- This file contains a Vhdl test bench template that is freely editable to   
+-- suit user's needs .Comments are provided in each section to help the user  
+-- fill out necessary details.                                                
+-- ***************************************************************************
+-- Generated on "04/04/2020 20:33:40"
+                                                            
+-- Vhdl Test Bench template for design  :  adam_dire_wrapper
+-- 
+-- Simulation tool : ModelSim-Altera (VHDL)
+-- 
+
+LIBRARY ieee;                                               
+USE ieee.std_logic_1164.all;                                
+
+ENTITY adam_dire_wrapper_vhd_tst IS
+END adam_dire_wrapper_vhd_tst;
+ARCHITECTURE adam_dire_wrapper_arch OF adam_dire_wrapper_vhd_tst IS
+-- constants                                                 
+-- signals                                                   
+SIGNAL clk : STD_LOGIC;
+SIGNAL enable : STD_LOGIC;
+SIGNAL HEX0 : STD_LOGIC_VECTOR(6 DOWNTO 0);
+SIGNAL reset : STD_LOGIC;
+COMPONENT adam_dire_wrapper
+	PORT (
+	clk : IN STD_LOGIC;
+	enable : IN STD_LOGIC;
+	HEX0 : OUT STD_LOGIC_VECTOR(6 DOWNTO 0);
+	reset : IN STD_LOGIC
+	);
+END COMPONENT;
+BEGIN
+	i1 : adam_dire_wrapper
+	PORT MAP (
+-- list connections between master ports and signals
+	clk => clk,
+	enable => enable,
+	HEX0 => HEX0,
+	reset => reset
+	);
+init : PROCESS                                               
+-- variable declarations                                     
+BEGIN                                                        
+        -- code that executes only once                      
+WAIT;                                                       
+END PROCESS init;       
+                                    
+always : PROCESS                                              
+                                     
+BEGIN 
+
+reset<='0';
+
+wait for 50 ns;
+
+reset<='1';
+enable<='1';
+                                                    
+WAIT;                                                        
+END PROCESS always;  
+
+clock_generation: process
+	begin 
+		clk<='1';
+		wait for (10 ns)/2;
+		clk<='0';
+		wait for (10 ns)/2;
+end process clock_generation;
+                                        
+END adam_dire_wrapper_arch;

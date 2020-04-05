@@ -1,0 +1,379 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.0
+Eadam_dire_7_segment_decoder
+Z0 w1582476627
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/ModelSim
+Z5 8C:/Users/adamd/OneDrive - McGill University/McGill - Winter2020/ECSE222/VHDL assignements/Lab6/lab6_submission_260927209_260927810/7_segment_decoder.vhd
+Z6 FC:/Users/adamd/OneDrive - McGill University/McGill - Winter2020/ECSE222/VHDL assignements/Lab6/lab6_submission_260927209_260927810/7_segment_decoder.vhd
+l0
+L5
+VoDSem@l;FTEdTgTZhhE<@2
+!s100 j@GCiT8TV`Rz;Se[bG8Tj1
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1586064030
+!i10b 1
+Z9 !s108 1586064030.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/adamd/OneDrive - McGill University/McGill - Winter2020/ECSE222/VHDL assignements/Lab6/lab6_submission_260927209_260927810/7_segment_decoder.vhd|
+Z11 !s107 C:/Users/adamd/OneDrive - McGill University/McGill - Winter2020/ECSE222/VHDL assignements/Lab6/lab6_submission_260927209_260927810/7_segment_decoder.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Adecoder
+R1
+R2
+R3
+Z14 DEx4 work 27 adam_dire_7_segment_decoder 0 22 oDSem@l;FTEdTgTZhhE<@2
+l12
+L11
+Z15 V>Y:k:gY;F2f:zAaWkYFUD1
+Z16 !s100 SIN98f9;z`:RUEfGc5^hF3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eadam_dire_clock_divider
+Z17 w1586064025
+Z18 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z19 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R1
+R2
+R3
+R4
+Z20 8C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/adam_dire_clock_divider.vhd
+Z21 FC:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/adam_dire_clock_divider.vhd
+l0
+L6
+VQSzhE^VhgaDI58;_GHe0O2
+!s100 ?Hhf<J4YU8_QJ0ag3H`Pf1
+R7
+32
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/adam_dire_clock_divider.vhd|
+Z23 !s107 C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/adam_dire_clock_divider.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R18
+R19
+R1
+R2
+R3
+DEx4 work 23 adam_dire_clock_divider 0 22 QSzhE^VhgaDI58;_GHe0O2
+l17
+L13
+V3I3GagPATih4PVL8ZoWV_3
+!s100 hjgJQESNc`RlWWj4c7oC41
+R7
+32
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13
+Eadam_dire_clock_divider_vhd_tst
+Z24 w1586046759
+R2
+R3
+R4
+Z25 8C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/simulation/modelsim/adam_dire_clock_divider.vht
+Z26 FC:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/simulation/modelsim/adam_dire_clock_divider.vht
+l0
+L30
+Vo]9;<UP4oYcz4Q^_AgFCX3
+!s100 E>X?kl_jT28o2G<=Ze1F@2
+R7
+32
+R8
+!i10b 1
+R9
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/simulation/modelsim/adam_dire_clock_divider.vht|
+Z28 !s107 C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/simulation/modelsim/adam_dire_clock_divider.vht|
+!i113 1
+R12
+R13
+Aadam_dire_clock_divider_arch
+R2
+R3
+DEx4 work 31 adam_dire_clock_divider_vhd_tst 0 22 o]9;<UP4oYcz4Q^_AgFCX3
+l47
+L32
+V=AhomGjD`BFbXeRg2<BYL3
+!s100 CMnHVi>h4@;WDNJbU_W]^0
+R7
+32
+R8
+!i10b 1
+R9
+R27
+R28
+!i113 1
+R12
+R13
+Eadam_dire_counter
+Z29 w1586029218
+R18
+R19
+R1
+R2
+R3
+R4
+Z30 8C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/adam_dire_counter.vhd
+Z31 FC:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/adam_dire_counter.vhd
+l0
+L6
+V69]hL2cfehBQRN9k9aQ]K2
+!s100 DZD<B3WA1IDDKD1U[G6Do2
+R7
+32
+R8
+!i10b 1
+R9
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/adam_dire_counter.vhd|
+Z33 !s107 C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/adam_dire_counter.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R18
+R19
+R1
+R2
+R3
+DEx4 work 17 adam_dire_counter 0 22 69]hL2cfehBQRN9k9aQ]K2
+l17
+L13
+V?RNgkXdT^9a5OA[SYb?Ri3
+!s100 LPAPI_4`b_mfQK5[9VJ1B0
+R7
+32
+R8
+!i10b 1
+R9
+R32
+R33
+!i113 1
+R12
+R13
+Eadam_dire_counter_vhd_tst
+Z34 w1586034980
+R2
+R3
+R4
+Z35 8C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/simulation/modelsim/adam_dire_counter.vht
+Z36 FC:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/simulation/modelsim/adam_dire_counter.vht
+l0
+L30
+VT8]SN_DB[RdE[B6?Q1d>m0
+!s100 f:AIdmUm:_aO=Pe_V6n2M0
+R7
+32
+R8
+!i10b 1
+R9
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/simulation/modelsim/adam_dire_counter.vht|
+Z38 !s107 C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/simulation/modelsim/adam_dire_counter.vht|
+!i113 1
+R12
+R13
+Aadam_dire_counter_arch
+R2
+R3
+DEx4 work 25 adam_dire_counter_vhd_tst 0 22 T8]SN_DB[RdE[B6?Q1d>m0
+l47
+L32
+VBmW3P[3=>0V_ZKEW8^HIe3
+!s100 Z;OAJed]nV^fSH@=aijDz2
+R7
+32
+R8
+!i10b 1
+R9
+R37
+R38
+!i113 1
+R12
+R13
+Eadam_dire_jkff
+Z39 w1586020332
+R1
+R2
+R3
+R4
+Z40 8C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/adam_dire_jkff.vhd
+Z41 FC:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/adam_dire_jkff.vhd
+l0
+L5
+VXcRk[Tl1SZ=gd_Emo2g;l2
+!s100 0<B5]dda`C=eoiFO=gm<X3
+R7
+32
+R8
+!i10b 1
+R9
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/adam_dire_jkff.vhd|
+Z43 !s107 C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/adam_dire_jkff.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 14 adam_dire_jkff 0 22 XcRk[Tl1SZ=gd_Emo2g;l2
+l15
+L12
+VLaOZMRNAga4PEdHVb`T843
+!s100 ]n58<k5bU>E5DUb]E]^c00
+R7
+32
+R8
+!i10b 1
+R9
+R42
+R43
+!i113 1
+R12
+R13
+Eadam_dire_jkff_vhd_tst
+Z44 w1586022651
+R2
+R3
+R4
+Z45 8C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/simulation/modelsim/adam_dire_jkff.vht
+Z46 FC:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/simulation/modelsim/adam_dire_jkff.vht
+l0
+L30
+Vj>NR@55ICPe_bfc:>?FP12
+!s100 kZC:DBoXRLh2R@Sfo?_hB0
+R7
+32
+R8
+!i10b 1
+R9
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/simulation/modelsim/adam_dire_jkff.vht|
+Z48 !s107 C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/simulation/modelsim/adam_dire_jkff.vht|
+!i113 1
+R12
+R13
+Aadam_dire_jkff_arch
+R2
+R3
+DEx4 work 22 adam_dire_jkff_vhd_tst 0 22 j>NR@55ICPe_bfc:>?FP12
+l47
+L32
+VW[SQejAT@TA@Se<6`P88E2
+!s100 aMb5;>0H7]dNmjHLb@[aj2
+R7
+32
+R8
+!i10b 1
+R9
+R47
+R48
+!i113 1
+R12
+R13
+Eadam_dire_wrapper
+Z49 w1586047306
+R1
+R2
+R3
+R4
+Z50 8C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/adam_dire_wrapper.vhd
+Z51 FC:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/adam_dire_wrapper.vhd
+l0
+L5
+V4?Gn3kkO2K@YPYk82Rd1W3
+!s100 66RoV_;Mg89k]7HOhWj?63
+R7
+32
+R8
+!i10b 1
+R9
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/adam_dire_wrapper.vhd|
+Z53 !s107 C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/adam_dire_wrapper.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 17 adam_dire_wrapper 0 22 4?Gn3kkO2K@YPYk82Rd1W3
+l39
+L12
+V@PgVNL[O_k6?[NdPPcTZW2
+!s100 H[WSI[nFQI?`bEk@7mnaz0
+R7
+32
+R8
+!i10b 1
+R9
+R52
+R53
+!i113 1
+R12
+R13
+Eadam_dire_wrapper_vhd_tst
+Z54 w1586047113
+R2
+R3
+R4
+Z55 8C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/simulation/modelsim/adam_dire_wrapper.vht
+Z56 FC:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/simulation/modelsim/adam_dire_wrapper.vht
+l0
+L30
+VG4gkOGfe`e0GBDcSCO7FM2
+!s100 n_E:`nEi@bU`eM3J=1TK<3
+R7
+32
+R8
+!i10b 1
+R9
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/simulation/modelsim/adam_dire_wrapper.vht|
+Z58 !s107 C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/simulation/modelsim/adam_dire_wrapper.vht|
+!i113 1
+R12
+R13
+Aadam_dire_wrapper_arch
+R2
+R3
+DEx4 work 25 adam_dire_wrapper_vhd_tst 0 22 G4gkOGfe`e0GBDcSCO7FM2
+l47
+L32
+V_mT<bA[]IoYF<@C721z6l3
+!s100 :Q<[MzO6W8`nn1Jl?0aI>3
+R7
+32
+R8
+!i10b 1
+R9
+R57
+R58
+!i113 1
+R12
+R13
