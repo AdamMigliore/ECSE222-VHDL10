@@ -21,12 +21,14 @@ architecture behavioral of adam_dire_clock_divider is
 				if (reset='0') THEN
 					temp<= "1001";
 				elsif( clk'EVENT AND clk='1')THEN
-					if(enable='1') THEN
+					if(temp<="0000") THEN
+						temp<="1001";
+					elsif(enable='1') THEN
 						temp<=temp - 1;
 					end if;
 				end if;
 		end process;
 		
-		en_out <= '0' when temp>="1001" else '1';
+		en_out <= '0' when temp>="0001" else '1';
 		
 end behavioral;

@@ -66,20 +66,30 @@ BEGIN
 
 reset<='0';
 
-wait for 50 ns;
+wait for 50 ms;
+
+reset<='1';
+enable<='1';
+
+wait for 200 ms;
+
+reset<='0';
+enable<='1';
+
+wait for 500 ms;
 
 reset<='1';
 enable<='1';
                                                     
 WAIT;                                                        
 END PROCESS always;  
-
+-- to get 10 Hz clock we need 10 cycles in 1 second; 1/10 = 0.1 seconds = 100 ms;
 clock_generation: process
 	begin 
 		clk<='1';
-		wait for (10 ns)/2;
+		wait for (100 ms)/2;
 		clk<='0';
-		wait for (10 ns)/2;
+		wait for (100 ms)/2;
 end process clock_generation;
                                         
 END adam_dire_wrapper_arch;

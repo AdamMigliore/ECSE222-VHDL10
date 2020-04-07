@@ -69,13 +69,13 @@ BEGIN
 	 reset<='1';
 WAIT;                                                        
 END PROCESS always;  
-
+-- to get 10 Hz clock we need 10 cycles in 1 second; 1/10 = 0.1 seconds = 100 ms;
 clock_generation: process
 	begin 
 		clk<='1';
-		wait for (10 ns)/2;
+		wait for (100 ms)/2;
 		clk<='0';
-		wait for (10 ns)/2;
+		wait for (100 ms)/2;
 end process clock_generation;
                                         
 END adam_dire_clock_divider_arch;

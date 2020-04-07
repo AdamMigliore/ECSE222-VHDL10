@@ -1,4 +1,13 @@
-C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/adam_dire_counter.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/adam_dire_counter.vhd
+{C:/Users/adamd/OneDrive - McGill University/McGill - Winter2020/ECSE222/VHDL assignements/Lab6/lab6_submission_260927209_260927810/7_segment_decoder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/adamd/OneDrive - McGill University/McGill - Winter2020/ECSE222/VHDL assignements/Lab6/lab6_submission_260927209_260927810/7_segment_decoder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity adam_dire_7_segment_decoder
+-- Compiling architecture decoder of adam_dire_7_segment_decoder
+
+} {} {}} C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/adam_dire_counter.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/adam_dire_counter.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -9,22 +18,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity adam_dire_counter
 -- Compiling architecture behavioral of adam_dire_counter
 
-} {} {}} {C:/Users/adamd/OneDrive - McGill University/McGill - Winter2020/ECSE222/VHDL assignements/Lab6/lab6_submission_260927209_260927810/7_segment_decoder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/adamd/OneDrive - McGill University/McGill - Winter2020/ECSE222/VHDL assignements/Lab6/lab6_submission_260927209_260927810/7_segment_decoder.vhd}
+} {} {}} C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/adam_dire_wrapper.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/adam_dire_wrapper.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity adam_dire_7_segment_decoder
--- Compiling architecture decoder of adam_dire_7_segment_decoder
-
-} {} {}} C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/simulation/modelsim/adam_dire_counter.vht {1 {vcom -work work -2002 -explicit -stats=none C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/simulation/modelsim/adam_dire_counter.vht
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity adam_dire_counter_vhd_tst
--- Compiling architecture adam_dire_counter_arch of adam_dire_counter_vhd_tst
+-- Compiling entity adam_dire_wrapper
+-- Compiling architecture behavioral of adam_dire_wrapper
 
 } {} {}} C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/adam_dire_jkff.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/adam_dire_jkff.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -35,22 +36,13 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity adam_dire_jkff
 -- Compiling architecture behavioral of adam_dire_jkff
 
-} {} {}} C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/adam_dire_wrapper.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/adam_dire_wrapper.vhd
+} {} {}} C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/simulation/modelsim/adam_dire_counter.vht {1 {vcom -work work -2002 -explicit -stats=none C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/simulation/modelsim/adam_dire_counter.vht
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity adam_dire_wrapper
--- Compiling architecture behavioral of adam_dire_wrapper
-
-} {} {}} C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/simulation/modelsim/adam_dire_jkff.vht {1 {vcom -work work -2002 -explicit -stats=none C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/simulation/modelsim/adam_dire_jkff.vht
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity adam_dire_jkff_vhd_tst
--- Compiling architecture adam_dire_jkff_arch of adam_dire_jkff_vhd_tst
+-- Compiling entity adam_dire_counter_vhd_tst
+-- Compiling architecture adam_dire_counter_arch of adam_dire_counter_vhd_tst
 
 } {} {}} C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/simulation/modelsim/adam_dire_wrapper.vht {1 {vcom -work work -2002 -explicit -stats=none C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/simulation/modelsim/adam_dire_wrapper.vht
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -70,6 +62,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package STD_LOGIC_UNSIGNED
 -- Compiling entity adam_dire_clock_divider
 -- Compiling architecture behavioral of adam_dire_clock_divider
+
+} {} {}} C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/simulation/modelsim/adam_dire_jkff.vht {1 {vcom -work work -2002 -explicit -stats=none C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/simulation/modelsim/adam_dire_jkff.vht
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity adam_dire_jkff_vhd_tst
+-- Compiling architecture adam_dire_jkff_arch of adam_dire_jkff_vhd_tst
 
 } {} {}} C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/simulation/modelsim/adam_dire_clock_divider.vht {1 {vcom -work work -2002 -explicit -stats=none C:/Users/adamd/Documents/GitHub/ECSE222-VHDL10/simulation/modelsim/adam_dire_clock_divider.vht
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
